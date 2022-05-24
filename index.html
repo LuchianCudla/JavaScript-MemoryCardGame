@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cardgame.css" />
+    <script
+      src="https://kit.fontawesome.com/1c89179ea9.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Card Game</title>
+  </head>
+
+  <body>
+    <div class="pop-up">
+      <span class="close">X</span>
+      <h1>You won!!!</h1>
+      <h2 class="win-moves">You made:</h2>
+      <h2 class="win-time">in</h2>
+      <h2 class="win-rating">Rating:</h2>
+    </div>
+    <h1>Memory Game</h1>
+    <div class="container">
+      <section class="score-section">
+        <div class="stars">
+          <i class="fas fa-star" class="star1"></i>
+          <i class="fas fa-star" class="star2"></i>
+          <i class="fas fa-star" class="star3"></i>
+        </div>
+        <span class="moves">0 Move(s)</span>
+        <div class="timer"></div>
+      </section>
+      <ul class="deck">
+        <div class="card" data-type="ball">
+          <i class="far fa-futbol"></i>
+          <div class="back-card"></div>
+        </div>
+        <div class="card" data-type="ball">
+          <i class="far fa-futbol"></i>
+          <div class="back-card"></div>
+        </div>
+        <div class="card" data-type="ganja">
+          <i class="fas fa-cannabis"></i>
+          <div class="back-card"></div>
+        </div>
+        <div class="card" data-type="ganja">
+          <i class="fas fa-cannabis"></i>
+          <div class="back-card"></div>
+        </div>
+        <div class="card" data-type="copan">
+          <i class="fas fa-drumstick-bite"></i>
+          <div class="back-card"></div>
+        </div>
+        <div class="card" data-type="copan">
+          <i class="fas fa-drumstick-bite"></i>
+          <div class="back-card"></div>
+        </div>
+        <div class="card" data-type="chitara">
+          <i class="fas fa-guitar"></i>
+          <div class="back-card"></div>
+        </div>
+        <div class="card" data-type="chitara">
+          <i class="fas fa-guitar"></i>
+          <div class="back-card"></div>
+        </div>
+        <div class="card" data-type="bomb">
+          <i class="fas fa-bomb"></i>
+          <div class="back-card"></div>
+        </div>
+        <div class="card" data-type="bomb">
+          <i class="fas fa-bomb"></i>
+          <div class="back-card"></div>
+        </div>
+        <div class="card" data-type="moon">
+          <i class="fas fa-moon"></i>
+          <div class="back-card"></div>
+        </div>
+        <div class="card" data-type="moon">
+          <i class="fas fa-moon"></i>
+          <div class="back-card"></div>
+        </div>
+      </ul>
+    </div>
+  </body>
+  <script src="cardgame.js"></script>
+</html>
